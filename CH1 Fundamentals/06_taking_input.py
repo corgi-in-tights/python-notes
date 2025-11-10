@@ -1,4 +1,4 @@
-# 1.03 Taking Input from Users
+# 1.08 Taking Input from Users
 
 # Use the input() function to take input from the user from the console/terminal
 
@@ -25,7 +25,7 @@ else:
 # Here is a simple example of handling invalid input for age
 age_input = input("Enter your age: ")
 try:
-    age = int(age_input)
+    age = int("age_input")
     print(f"You are {age} years old.")
 except ValueError:
     print("That's not a valid age!")

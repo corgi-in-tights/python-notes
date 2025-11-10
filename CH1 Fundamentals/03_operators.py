@@ -3,7 +3,10 @@
 # Operators are special symbols that perform operations on variables and values
 # Here are some common types of operators in Python:
 
+# -----------------------------
 # Arithmetic Operators
+# -----------------------------
+
 # These take in two basic data types (integers or floats) and return a single value (which can be an integer or float)
 # If a float is used in the operation, the result will *usually* be a float
 a = 10
@@ -18,7 +21,10 @@ print("Modulus:", a % b)           # Modulus, returns the remainder between divi
 print("Exponentiation:", a ** b)   # Exponentiation, a raised to the bth power
 
 
+# -----------------------------
 # Comparison Operators
+# -----------------------------
+
 # These compare two values and return a Boolean (True or False) *always*
 # Essentially, you can answer simple yes or no questions, or much more complex ones by breaking things down
 print("\nComparison Operators:")
@@ -30,7 +36,10 @@ print("Greater than or equal to:", a >= b)  # Greater than or equal to
 print("Less than or equal to:", a <= b)     # Less than or equal to
 
 
+# -----------------------------
 # Logical Operators
+# -----------------------------
+
 # These combine multiple Boolean values and return a single Boolean value
 # They are useful for building complex conditions
 # "This is a dog AND it is brown"
@@ -46,7 +55,10 @@ print("Logical NOT:", not x)       # Logical NOT
 print("Combined:", (a > b) and (x or y))  # Combined
 
 
+# -----------------------------
 # Assignment Operators
+# -----------------------------
+
 # Shortcuts for assigning values to variables
 print("\nAssignment Operators:")
 c = 5
