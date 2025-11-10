@@ -68,10 +68,18 @@ print(bool("hi")) # True  (non-empty string)
 # When conversions FAIL: ValueError and exceptions
 # -------------------------------------------------
 
+# You don't need to fully understand this section right now, it will be covered later
+# but it's here for completeness.
+
+# Knowing how to handle conversion errors is useful in real programs, take note
+# of the syntax
+
 # Not every string can be converted to a number.
 # The following line would crash the program with a ValueError:
+
 # bad_number = "twenty"
 # int(bad_number)  # ValueError: invalid literal for int()
+
 
 # To avoid crashing, we can CATCH the error using try/except.
 

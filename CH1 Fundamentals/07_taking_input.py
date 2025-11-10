@@ -1,4 +1,4 @@
-# 1.08 Taking Input from Users
+# 1.07 Taking Input from Users
 
 # Use the input() function to take input from the user from the console/terminal
 
