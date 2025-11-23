@@ -6,7 +6,6 @@
 #    - Use .lower() to make it all lowercase
 #    - Use string concatenation (+) to build the email
 # 3. Prints the email address
-# 4. Prints the first character of the email (should be first letter of first name)
 
 # Example:
 # Enter first name: John

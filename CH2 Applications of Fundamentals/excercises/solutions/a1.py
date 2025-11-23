@@ -1,19 +1,53 @@
-# Answer 1: Understanding If Statements
+# Answer 1: Conditional Logic Explanations
 
-# 1. What happens in Version A if score = 95?
-#    - It prints "A", then checks >= 80 (True), prints "B", then checks >= 70 (True), prints "C"
-#    - Output: A B C (all three!)
+# -----------------------------
+# Answer A: Independence
+# -----------------------------
 
-# 2. What happens in Version B if score = 95?
-#    - It prints "A", then STOPS checking the rest
-#    - Output: A (only one!)
+# Output: A B C (all three print)
 
-# 3. Which version is correct for a grading system? Why?
-#    - Version B (elif) is correct
-#    - A student should only get ONE grade, not multiple
-#    - elif stops checking once a condition is True
+# Explanation:
+# - Each if statement is independent - they ALL run
+# - First if: 15 > 10 is True, prints "A"
+# - Second if: 15 > 5 is True, prints "B"
+# - Third if: 15 > 0 is True, prints "C"
+# - To print only "A", use elif instead of the second/third if
 
-# 4. When would you use multiple independent if statements instead?
-#    - When you want to check multiple separate conditions
-#    - Example: checking if someone is tall AND smart AND funny
-#    - Each check is independent and all can be True at the same time
+
+# -----------------------------
+# Answer B: Precedence
+# -----------------------------
+
+# 1. not True or False
+#    - not is evaluated first: not True = False
+#    - Then or: False or False = False
+
+# 2. True or False and False
+#    - and is evaluated before or
+#    - False and False = False
+#    - True or False = True
+
+# 3. 10 > 5 and not False or 3 < 2
+#    - Comparisons first: 10 > 5 = True, 3 < 2 = False
+#    - not next: not False = True
+#    - and next: True and True = True
+#    - or last: True or False = True
+
+
+# -----------------------------
+# Answer C: Combined Conditions
+# -----------------------------
+
+# The bug: Missing parentheses makes the condition ambiguous
+
+# Current interpretation (due to precedence):
+# (age >= 18 and income >= 25000) or income >= 50000
+# This approves age=17, income=60000 because income >= 50000 is True
+
+# What it SHOULD be (both conditions required):
+# age >= 18 and (income >= 25000 or income >= 50000)
+# This requires age >= 18 AND at least one income condition
+
+# Fixed code:
+# if age >= 18 and (income >= 25000 or income >= 50000):
+#     print("Approved")
