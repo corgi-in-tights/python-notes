@@ -8,7 +8,7 @@ def test_question():
         sys.stdout = StringIO()
         
         try:
-            from . import q1  # should automatically run as no functions yet
+            import q1  # should automatically run as no functions yet
         except Exception as e:
             raise AssertionError(f"Error when running the code: {e}")
             exit()
