@@ -8,7 +8,7 @@
 # -----------------------------
 
 secret = "PYTHON"
-guess = input("Guess a 6-letter word: ").upper()
+guess = input("Guess a 5-letter word: ").upper()
 
 # Check position 1
 if guess[0] == secret[0]:
@@ -27,6 +27,6 @@ else:
     print("Position 2: No")
     
     
-# Now YOU write the code to check positions 3, 4, 5, and 6
+# Now YOU write the code to check positions 3, 4, and 5
 
 # If the word is guessed correctly, print "Congratulations! 

@@ -29,6 +29,9 @@ name = "Alice"
 first_letter = name[0]  # "A"
 last_letter = name[-1]  # "e"
 
+# We can use variables inside the brackets too
+index = 2
+third_letter = name[index]  # "i"
 
 # -----------------------------
 # String slicing
