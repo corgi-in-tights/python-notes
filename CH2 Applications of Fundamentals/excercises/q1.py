@@ -22,8 +22,8 @@
 # elif score >= 70:
 #     print("C")
 
-# Questions:
-# 1. What happens in Version A if score = 95?
-# 2. What happens in Version B if score = 95?
-# 3. Which version is correct for a grading system? Why?
-# 4. When would you use multiple independent if statements instead?
+# Sub-questions:
+# I. What happens in Version A if score = 95?
+# II. What happens in Version B if score = 95?
+# III. Which version is correct for a grading system? Why?
+# IV. When would you use multiple independent if statements instead?
