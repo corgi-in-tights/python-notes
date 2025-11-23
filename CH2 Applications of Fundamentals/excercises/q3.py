@@ -1,4 +1,4 @@
-# Question 2: Try-Catch Practice
+# Question 3: Try-Catch Practice
 
 # Write a program that:
 # 1. Asks the user for two numbers
