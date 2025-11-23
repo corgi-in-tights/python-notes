@@ -6,7 +6,7 @@
 
 temp = float(input("Enter celsius "))
 converted = (temp * 9/5) + 32
-print(f"{temp}°C = {converted}°F")
+print(converted)
 
 # -----------------------------
 # YOUR TURN: Solve this!
