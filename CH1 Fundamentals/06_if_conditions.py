@@ -56,6 +56,17 @@ else:
     print("You are a senior citizen.")
 # An elif condition is only checked if all prior conditions were False
     
+# This can alternatively be stated using independant if statements:
+age = 70
+if age < 13:
+    print("You are a child.")
+if age >= 13 and age < 20:
+    print("You are a teenager.")
+if age >= 20 and age < 65:
+    print("You are an adult.")
+if age >= 65:
+    print("You are a senior citizen.")    
+
 # You can also combine conditions using logical operators (and, or, not)
 temperature = 75
 is_sunny = True
@@ -65,6 +76,7 @@ if temperature > 70 and is_sunny:
 if temperature < 50 or not is_sunny:
     # It is cold or not sunny
     print("You might want to stay indoors today.")
+    
     
 # Notice how both if conditions are 'independant' of each other, as in, both can run 
 # if their conditions are met
