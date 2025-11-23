@@ -42,7 +42,7 @@
 # if age >= 18 and income >= 25000 or income >= 50000:
 #     print("Approved")
 
-# Should someone with age=17 and income=60000 be approved?
+# Someone with age=17 and income=60000 should NOT be approved.
 # What does the current code do? What should it be?
 
 # -- ANSWERS BELOW --
