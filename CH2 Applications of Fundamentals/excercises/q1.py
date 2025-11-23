@@ -1,9 +1,5 @@
 # Question 1: Understanding If Statements
 
-# Explain the difference between using:
-# 1. Multiple independent if statements
-# 2. if-elif-else chain
-
 # Scenario: A grading system that checks a score
 
 # Version A:
