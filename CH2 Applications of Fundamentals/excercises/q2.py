@@ -1,23 +1,17 @@
-# Question 2: Try-Catch Practice
+# Question 2: String Operations Practice
 
 # Write a program that:
-# 1. Asks the user for two numbers
-# 2. Divides the first number by the second
-# 3. Prints the result
+# 1. Asks the user for their first name and last name
+# 2. Creates an email address in the format: first_last@email.com
+#    - Use .lower() to make it all lowercase
+#    - Use string concatenation (+) to build the email
+# 3. Prints the email address
+# 4. Prints the first character of the email (should be first letter of first name)
 
-# Handle these errors:
-# - ValueError: if the user enters something that's not a number
-# - ZeroDivisionError: if the user tries to divide by zero
-
-# For each error, print a helpful message explaining what went wrong.
-
-# Example output:
-# Enter first number: 10
-# Enter second number: 2
-# Result: 5.0
-
-# Example with error:
-# Enter first number: abc
-# Please enter a valid number!
+# Example:
+# Enter first name: John
+# Enter last name: Smith
+# Email: john_smith@email.com
+# First character: j
 
 # -- ANSWER BELOW --
