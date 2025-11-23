@@ -42,3 +42,16 @@ print(f"Your full name is {first_name} {last_name}.")
 # This improves the user experience and reduces the chance of invalid inputs
 a = input("> ")
 # Is quite unclear what the user is supposed to input, unless there is prior context
+
+
+# When asked to do excercises in this set of notes, or in general when submitting things online
+# please note that your inputs should NOT have prompt strings.
+
+# i.e.
+width = float(input())
+# over
+width = float(input("Enter the width: "))
+# unless specifically told otherwise.
+
+# This is because the testing system will provide inputs automatically,
+# and if your code expects a prompt string, it will treat it as your output instead.
