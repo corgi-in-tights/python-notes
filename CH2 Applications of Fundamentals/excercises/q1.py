@@ -39,7 +39,8 @@
 
 # age = 25
 # income = 30000
-# if age >= 18 and income >= 25000 or income >= 50000:
+# if age >= 18 and income >= 25000 or \
+    # age < 18 and income >= 100000:
 #     print("Approved")
 
 # Someone with age=17 and income=60000 should NOT be approved.
