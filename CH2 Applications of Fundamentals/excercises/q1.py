@@ -31,20 +31,3 @@
 # Hint: Remember operator precedence - which operators are evaluated first?
 
 
-# -----------------------------
-# Question 1C: Combined Conditions
-# -----------------------------
-
-# This code has a bug. What's wrong and how would you fix it?
-
-# age = 25
-# income = 30000
-# if age >= 18 and income >= 25000 or \
-    # age < 18 and income >= 100000:
-#     print("Approved")
-
-# Someone with age=17 and income=60000 should NOT be approved.
-# What does the current code do? What should it be?
-
-# -- ANSWERS BELOW --
-
