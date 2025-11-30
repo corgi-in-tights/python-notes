@@ -19,8 +19,7 @@ a / b           # 3.333... - Division
 a // b          # 3 - Floor Division, rounds *down* to the nearest whole number
 a % b           # 1 - Modulus, returns the remainder between division
 a ** b          # 1000 - Exponentiation, a raised to the bth power
-
-
+    
 # -----------------------------
 # Comparison Operators
 # -----------------------------

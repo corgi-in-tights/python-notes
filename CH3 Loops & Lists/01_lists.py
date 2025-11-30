@@ -20,7 +20,6 @@ fruits = ["apple", "banana", "cherry"]
 mixed = [1, "hello", 3.14, True]
 # Always be mindful of the types you are working with!
 
-
 # -----------------------------
 # Accessing list items
 # -----------------------------

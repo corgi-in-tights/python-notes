@@ -46,8 +46,7 @@ while True:   # Infinite loop
 while True:
     res = input("Say 'yes': ")
     if res == "yes":
-        break   # Exit immediately
-
+        break
 
 
 # -----------------------------
