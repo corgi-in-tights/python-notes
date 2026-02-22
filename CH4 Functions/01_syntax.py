@@ -45,6 +45,13 @@ greet_person("Bob")    # Output: Hello, Bob
 # Function with a return value
 # -----------------------------
 
+def average(list_of_numbers):
+    total = 0
+    for num in list_of_numbers:
+        total = add(total)
+    count = len(list_of_numbers)
+    return total / count
+
 def add(a, b):
     return a + b
 

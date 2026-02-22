@@ -35,7 +35,7 @@ first = fruits.pop(0)       # first = "apple", fruits = ["banana"]
 
 # clear() - remove all items
 fruits.clear()              # []
-
+fruits = []
 
 # -----------------------------
 # Finding items
